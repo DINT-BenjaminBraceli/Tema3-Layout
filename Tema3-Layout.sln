@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormularioStackPanel", "FormularioStackPanel\FormularioStackPanel.csproj", "{EE191952-F2D3-403B-907A-91A38A222173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquiposNBA", "EquiposNBA\EquiposNBA.csproj", "{4B0DED01-E922-44A9-8CEC-DF9174A8E5CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaico", "Mosaico\Mosaico.csproj", "{F91DB50B-A407-4D9D-8466-BB81D39C227F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorImagenes", "VisorImagenes\VisorImagenes.csproj", "{6863DCAA-AE69-4ED4-BD75-5D9A3CD4E5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{A425F25A-8769-489D-AC2A-CAE3906F6E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estaciones", "Estaciones\Estaciones.csproj", "{BB410144-AED6-4808-9373-F72EEA9E9ADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario", "Formulario\Formulario.csproj", "{77BACDDF-CD70-4290-A1B1-81A48E63D317}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE191952-F2D3-403B-907A-91A38A222173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE191952-F2D3-403B-907A-91A38A222173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE191952-F2D3-403B-907A-91A38A222173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE191952-F2D3-403B-907A-91A38A222173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0DED01-E922-44A9-8CEC-DF9174A8E5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0DED01-E922-44A9-8CEC-DF9174A8E5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0DED01-E922-44A9-8CEC-DF9174A8E5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0DED01-E922-44A9-8CEC-DF9174A8E5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91DB50B-A407-4D9D-8466-BB81D39C227F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91DB50B-A407-4D9D-8466-BB81D39C227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91DB50B-A407-4D9D-8466-BB81D39C227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91DB50B-A407-4D9D-8466-BB81D39C227F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6863DCAA-AE69-4ED4-BD75-5D9A3CD4E5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6863DCAA-AE69-4ED4-BD75-5D9A3CD4E5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6863DCAA-AE69-4ED4-BD75-5D9A3CD4E5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6863DCAA-AE69-4ED4-BD75-5D9A3CD4E5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A425F25A-8769-489D-AC2A-CAE3906F6E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A425F25A-8769-489D-AC2A-CAE3906F6E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A425F25A-8769-489D-AC2A-CAE3906F6E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A425F25A-8769-489D-AC2A-CAE3906F6E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB410144-AED6-4808-9373-F72EEA9E9ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB410144-AED6-4808-9373-F72EEA9E9ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB410144-AED6-4808-9373-F72EEA9E9ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB410144-AED6-4808-9373-F72EEA9E9ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BACDDF-CD70-4290-A1B1-81A48E63D317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BACDDF-CD70-4290-A1B1-81A48E63D317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BACDDF-CD70-4290-A1B1-81A48E63D317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BACDDF-CD70-4290-A1B1-81A48E63D317}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3F6DA80-9AEB-4379-A167-0DC7AF68C52A}
+	EndGlobalSection
+EndGlobal
