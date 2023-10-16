@@ -5,8 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VisorImagenes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" MaxHeight="600" MinHeight="600" MinWidth="700" Width="700">
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Bottom" Background="LightBlue" Margin="15">
+            <DockPanel Margin="5, 25, 5, 25">
+                <TextBlock HorizontalAlignment="Left" FontSize="20">Nº de imágenes: 10</TextBlock>
+                <TextBlock HorizontalAlignment="Right" FontSize="20">Diseñado por Benjamin Braceli</TextBlock>
+            </DockPanel>
+        </DockPanel>
 
-    </Grid>
+        <Border DockPanel.Dock="Right" BorderBrush="Black" CornerRadius="3" BorderThickness="3" Margin="5" Background="LightGreen">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Bottom" Margin="10">
+                    <Button Margin="3">Rotar</Button>
+                    <Button Margin="3">Recortar</Button>
+                </StackPanel>
+
+                <StackPanel DockPanel.Dock="Top" Orientation="Vertical" Margin="10">
+                    <Button VerticalAlignment="Top" Margin="3">Añadir imagen</Button>
+                    <Button VerticalAlignment="Top" Margin="3">Eliminar imagen</Button>
+                    <Button VerticalAlignment="Top" Margin="3">Eliminar todas</Button>
+                </StackPanel>
+
+                
+            </DockPanel>
+        </Border>
+
+
+        
+        <StackPanel DockPanel.Dock="Left" Margin="10">
+            <TextBlock FontSize="40" FontFamily="Rubik" TextAlignment="Center" Margin="5">Visor de imágenes</TextBlock>
+            <WrapPanel>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+                <Image Source="/Resources/episodioIV.jpg" Height="200"/>
+            </WrapPanel>
+        </StackPanel>
+        
+    </DockPanel>
 </Window>
