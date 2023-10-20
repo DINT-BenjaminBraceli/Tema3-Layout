@@ -5,8 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Formulario"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Formulario" MinHeight="550" Height="550" MinWidth="850" Width="850">
+    <DockPanel>
+        <GroupBox Margin="10" DockPanel.Dock="Top">
+            <HeaderedContentControl>
+                <TextBox Text="Formulario" TextAlignment="Center" FontSize="40" FontWeight="Bold"/>
+            </HeaderedContentControl>
+        </GroupBox>
+        <DockPanel DockPanel.Dock="Bottom" LastChildFill="False">
+            <TextBlock DockPanel.Dock="Left" Text="Benjamin Braceli" FontSize="20" FontStyle="Italic"/>
+            <Button DockPanel.Dock="Right" Content="Cancelar" Margin="5" Width="100" Height="25"/>
+            <Button DockPanel.Dock="Right" Content="Aceptar" Margin="5" Width="100" Height="25"/>
+        </DockPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Border Background="#FF9FC8EC" BorderBrush="Black" BorderThickness="4" CornerRadius="10" Margin="10">
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="35"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Nombre" Grid.Column="0" Grid.Row="0" Margin="10"/>
+                        <TextBlock Text="Edad" Grid.Column="0" Grid.Row="1" Margin="10"/>
+                        <TextBlock Text="Dirección" Grid.Column="0" Grid.Row="2" Margin="10"/>
+                        <TextBox Grid.Column="1" Grid.Row="0" Margin="10"/>
+                        <TextBox Grid.Column="1" Grid.Row="1" Margin="10"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" Margin="10"/>
+                        <Image Grid.Column="3" Grid.Row="0" Source="/Resources/info.png" Margin="0,0,10,0"/>
+                        <Image Grid.Column="3" Grid.Row="1" Source="/Resources/info.png" Margin="0,0,10,0"/>
+                        <Image Grid.Column="3" Grid.Row="2" Source="/Resources/info.png" Margin="0,0,10,0"/>
+                    </Grid>
+                </Border>
+                <Border Background="#FFEBEC9F" BorderBrush="Black" BorderThickness="4" CornerRadius="10" Margin="10">
+                    <StackPanel Orientation="Horizontal">
+                        <GroupBox Width="200" Margin="10">
+                        </GroupBox>
+                        <GroupBox Width="200" Margin="10">                            
+                        </GroupBox>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
 
-    </Grid>
+            
+            <Image Grid.Column="1" Grid.RowSpan="3" Margin="15" Source="/Resources/foto.jpg" Stretch="Fill"/>
+
+        </Grid>
+    </DockPanel>
+    
 </Window>

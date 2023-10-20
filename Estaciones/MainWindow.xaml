@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Estaciones"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Estaciones" Height="450" Width="800">
+    <DockPanel Background="#FF27E4DF">
+        <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" FontSize="36" FontStyle="Italic">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF005DDA"/>
+                    <GradientStop Color="#FFC1D412" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+            <TextBlock.Effect>
+                <DropShadowEffect/>
+            </TextBlock.Effect>
+            Las 4 estaciones</TextBlock>
+        <UniformGrid>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Margin="10">
+                <Image Source="/Resources/invierno.jpg"/>
+            </ScrollViewer>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Margin="10">
+                <Image Source="/Resources/primavera.jpg"/>
+            </ScrollViewer>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Margin="10">
+                <Image Source="/Resources/verano.jpg"/>
+            </ScrollViewer>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Margin="10">
+                <Image Source="/Resources/otoño.jpg"/>
+            </ScrollViewer>
+        </UniformGrid>
+    </DockPanel>
+    
 </Window>

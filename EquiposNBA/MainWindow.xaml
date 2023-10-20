@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EquiposNBA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="EquiposNBA" Height="450" Width="800">
     <StackPanel>
         <Border Margin="10" BorderBrush="Black" CornerRadius="3" BorderThickness="3">
             <Border.Background>

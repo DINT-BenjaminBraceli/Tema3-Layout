@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VisorImagenes"
         mc:Ignorable="d"
-        Title="MainWindow" MaxHeight="600" MinHeight="600" MinWidth="700" Width="700">
+        Title="Visor de imágenes" MaxHeight="600" MinHeight="600" MinWidth="700" Width="700">
     <DockPanel>
         <DockPanel DockPanel.Dock="Bottom" Background="LightBlue" Margin="15">
             <DockPanel Margin="5, 25, 5, 25">
