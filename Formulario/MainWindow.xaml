@@ -48,17 +48,28 @@
                 </Border>
                 <Border Background="#FFEBEC9F" BorderBrush="Black" BorderThickness="4" CornerRadius="10" Margin="10">
                     <StackPanel Orientation="Horizontal">
-                        <GroupBox Width="200" Margin="10">
+                        <GroupBox Width="200" Margin="10" Header="Aficiones">
+                            <StackPanel Orientation="Vertical">
+                                <CheckBox Content="Hacer deporte" Margin="10,10,10,0"/>
+                                <CheckBox Content="Viajar" Margin="10,0,10,0"/>
+                                <CheckBox Content="Ver series" Margin="10,0,10,0"/>
+                                <CheckBox Content="Leer comics" Margin="10,0,10,10"/>
+                            </StackPanel>
                         </GroupBox>
-                        <GroupBox Width="200" Margin="10">                            
+                        <GroupBox Width="200" Margin="10" Header="Estado civil">
+                            <StackPanel Orientation="Vertical">
+                                <RadioButton Content="Soltero" Margin="10,10,10,0" IsChecked="True"/>
+                                <RadioButton Content="Casado" Margin="10,0,10,0"/>
+                                <RadioButton Content="Divorciado" Margin="10,0,10,0"/>
+                                <RadioButton Content="Viudo" Margin="10,0,10,10"/>
+                            </StackPanel>
                         </GroupBox>
                     </StackPanel>
                 </Border>
             </StackPanel>
 
-            
-            <Image Grid.Column="1" Grid.RowSpan="3" Margin="15" Source="/Resources/foto.jpg" Stretch="Fill"/>
 
+            <Image Grid.Column="1" Grid.RowSpan="3" Margin="10" Source="/Resources/foto.jpg" Stretch="Fill"/>
         </Grid>
     </DockPanel>
     
